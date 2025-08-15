@@ -1,0 +1,68 @@
+.Main{
+    overflow-x: hidden;
+    margin: 0px 40px;
+}
+.custom-caption {
+    top: 50%;
+    color: black;
+    left: 10%;
+    transform: translateY(-50%);
+    right:70px;
+    bottom: auto;
+    text-align: left;
+}
+
+/* Card styling like your example */
+.custom-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+}
+
+/* Button styling */
+.btn-custom {
+    background-color: #6a0dad;
+    /* purple shade */
+    color: white;
+
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #580b99;
+    color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) grayscale(100);
+}
+
+.Text {
+    display: block;
+    text-align: left;
+    margin: 20px;
+}
+.Text p{
+    color:rgb(106, 104, 104);
+}
+.card img{
+    margin:15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.card{
+    border-radius: 10px;
+}
+.card-title{
+    margin-top: -15px;
+}
+.card-body{
+    display: block;
+    text-align: left;
+}
+.card-body button{
+    margin:0px 3px;
+}
